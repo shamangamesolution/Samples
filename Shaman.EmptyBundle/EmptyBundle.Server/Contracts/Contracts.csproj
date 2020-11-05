@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;netcoreapp2.2</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Shaman.Common.Utils" Version="1.12.2" />
+        <PackageReference Include="Shaman.Contract.Common" Version="1.12.2" />
+        <PackageReference Include="Shaman.Messages" Version="1.12.2" />
+        <PackageReference Include="Shaman.Serialization" Version="1.12.2" />
+        <PackageReference Include="Shaman.Serialization.Messages" Version="1.12.2" />
+        <PackageReference Include="Shaman.Serialization.Messages.Http" Version="1.12.2" />
+        <PackageReference Include="Shaman.Serialization.Messages.Udp" Version="1.12.2" />
+    </ItemGroup>
+    
+</Project>
