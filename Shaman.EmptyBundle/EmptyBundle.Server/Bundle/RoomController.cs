@@ -36,6 +36,7 @@ namespace Bundle
 
         public void ProcessPlayerDisconnected(Guid sessionId, PeerDisconnectedReason reason, byte[] reasonPayload)
         {
+            _logger.Error($"Player left room");
         }
 
         public bool IsGameFinished()
