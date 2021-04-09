@@ -5,13 +5,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Shaman.Common.Utils" Version="1.12.2" />
-        <PackageReference Include="Shaman.Contract.Common" Version="1.12.2" />
-        <PackageReference Include="Shaman.Messages" Version="1.12.2" />
-        <PackageReference Include="Shaman.Serialization" Version="1.12.2" />
-        <PackageReference Include="Shaman.Serialization.Messages" Version="1.12.2" />
-        <PackageReference Include="Shaman.Serialization.Messages.Http" Version="1.12.2" />
-        <PackageReference Include="Shaman.Serialization.Messages.Udp" Version="1.12.2" />
+        <PackageReference Include="Shaman.Common.Utils" Version="1.13.1" />
+        <PackageReference Include="Shaman.Contract.Common" Version="1.13.1" />
+        <PackageReference Include="Shaman.Messages" Version="1.13.1" />
+        <PackageReference Include="Shaman.Serialization" Version="1.13.1" />
+        <PackageReference Include="Shaman.Serialization.Messages" Version="1.13.1" />
+        <PackageReference Include="Shaman.Serialization.Messages.Http" Version="1.13.1" />
+        <PackageReference Include="Shaman.Serialization.Messages.Udp" Version="1.13.1" />
     </ItemGroup>
     
 </Project>

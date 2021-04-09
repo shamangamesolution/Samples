@@ -28,13 +28,15 @@ namespace Bundle
         }
 
         
+#pragma warning disable 1998
         public async Task<bool> ProcessNewPlayer(Guid sessionId, Dictionary<byte, object> properties)
+#pragma warning restore 1998
         {
             _logger.Error($"Player joined to room");
             return true;
         }
 
-        public void ProcessPlayerDisconnected(Guid sessionId, PeerDisconnectedReason reason, byte[] reasonPayload)
+        public void ProcessPlayerDisconnected(Guid sessionId, PeerDisconnectedReason reason, Payload reasonPayload)
         {
             _logger.Error($"Player left room");
         }
