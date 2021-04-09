@@ -5,10 +5,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Shaman.Contract.Bundle" Version="1.12.2" />
-        <PackageReference Include="Shaman.Contract.Bundle.DI" Version="1.12.2" />
-        <PackageReference Include="Shaman.Contract.MM" Version="1.12.2" />
-        <PackageReference Include="Shaman.Serialization.Room" Version="1.12.2" />
+        <PackageReference Include="Shaman.Contract.Bundle" Version="1.13.1" />
+        <PackageReference Include="Shaman.Contract.Bundle.DI" Version="1.13.1" />
+        <PackageReference Include="Shaman.Contract.MM" Version="1.13.1" />
+        <PackageReference Include="Shaman.Serialization.Room" Version="1.13.1" />
     </ItemGroup>
 
     <ItemGroup>

@@ -65,7 +65,7 @@ namespace Bundle
 
         }
 
-        public void ProcessPlayerDisconnected(Guid sessionId, PeerDisconnectedReason reason, byte[] reasonPayload)
+        public void ProcessPlayerDisconnected(Guid sessionId, PeerDisconnectedReason reason, Payload reasonPayload)
         {
             _playerManager.RemovePlayer(sessionId);
             SendPlayersListUpdate();

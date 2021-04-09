@@ -55,8 +55,6 @@ namespace Code
             _taskSchedulerFactory = new TaskSchedulerFactory(_logger);
             _serializer = new BinarySerializer();
             _clientPeer = new ShamanClientPeer(_logger, _taskSchedulerFactory,_serializer, RequestSender, Network, _clientPeerConfig);
-            // _webRequesterConfigProvider = new WebRequesterConfigProviderHardcoded();
-            // _webRequester = new WebRequesterSystem(_webRequesterConfigProvider);
             _networkConfiguration = new NetworkConfiguration($"http://{RouterAddress}:{RouterHttpPort}");
             _routerClient = new RouterClient(RequestSender, _logger, _networkConfiguration);
             _serverInfoProvider = new ClientServerInfoProvider(_logger, _routerClient);

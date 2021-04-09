@@ -29,7 +29,7 @@ namespace Code.Network
             if (response.ResultCode != ResultCode.OK)
             {
                 _logger.Error(
-                    $"BackendProvider error: error getting backends {response.ResultCode}|{response.Message}");
+                    $"GetServerInfoList error: error getting backends {response.ResultCode}|{response.Message}");
                 _emptyList = new EntityDictionary<ServerInfo>();
                 return _emptyList;
             }

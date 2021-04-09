@@ -41,7 +41,6 @@ namespace Code.Network
 
         //private for using
         private string _clientVersion = "0.0.1";
-        //private ShamanClientPeer _clientPeer;
         private float _receiveRatePerSec;
         private int _syncersProcessQueuesIntervalMs;
         private object _queueSync = new object();
